@@ -1,0 +1,15 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #fdf6f9; /* light pastel pink */
+}
+
+.button {
+    -fx-background-color: #cceeff; /* pastel blue */
+    -fx-border-radius: 5px;
+    -fx-padding: 6 12;
+}
+
+.label, .text {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+}
