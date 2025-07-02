@@ -23,7 +23,7 @@ A distributed system project built with **Spring Boot** and **JavaFX**, designed
 5. **JavaFX GUI**  
    A desktop client that visualizes both current and historical energy percentage values via the REST API.
 
-6. **Weather API Integration (Planned)**  
+6. **Weather API Integration**  
    Optional component for factoring weather data into energy behavior (e.g., solar input).
 
 ---
