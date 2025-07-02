@@ -6,7 +6,7 @@ A distributed system project built with **Spring Boot** and **JavaFX**, designed
 
 ## 🔧 Components
 
-1. **Energy Producer**  
+1. **Energy Producer and User**  
    Simulates and sends energy consumption data (e.g., in kWh) to RabbitMQ.
 
 2. **Usage Service**  
@@ -30,7 +30,7 @@ A distributed system project built with **Spring Boot** and **JavaFX**, designed
 
 ## 🛠️ Technologies Used
 
-- Java 17+
+- Java 21+
 - Spring Boot
 - JavaFX
 - RabbitMQ
@@ -41,10 +41,10 @@ A distributed system project built with **Spring Boot** and **JavaFX**, designed
 
 ## 🚀 How to Run
 
-1. **Start RabbitMQ and PostgreSQL**
+1. **Start RabbitMQ and PostgreSQL in Docker**
 2. **Run each Spring Boot service individually** (can be run via IDE or command line):
    - Usage Service
    - Current Percentage Service
    - REST API
-3. **Run the Energy Producer** to simulate consumption.
+3. **Run the Energy Producer / Energy User** to simulate consumption.
 4. **Launch the JavaFX GUI** to interact with the API and visualize data.
